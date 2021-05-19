@@ -1,0 +1,37 @@
+.currency {
+    margin: 0;
+    display: flex;
+    flex-direction: column; /* Add this */
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 50vh;
+}
+
+.wrapper {
+    background-color: #ffe4c4;
+    padding: 3px 10px;
+    border-radius: 20px;
+}
+
+.cc-title {
+    color: #000;
+    margin: 0;
+    margin-bottom: .5rem;
+}
+
+.input-number {
+    border: 1px solid #333;
+    border-radius: .3em;
+    padding: .25rem;
+    width: 7em;
+    justify-content: center;
+}
+
+.currency-code {
+    margin-left: .5rem;
+}
+.equals {
+    font-weight: bold;
+    font-size: 2rem;
+}
